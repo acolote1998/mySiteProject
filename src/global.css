@@ -1,0 +1,13 @@
+/* Tablet Mode */
+@media screen and (min-width: 431px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* Desktop Mode */
+@media screen and (min-width: 770px) {
+    body {
+        background-color: aqua;
+    }
+}
