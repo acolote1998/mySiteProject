@@ -13,8 +13,7 @@ body {
 }
 
 .main_card img {
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-radius: 10px 10px 25px 25px;
 }
 
 /* Tablet Mode */
