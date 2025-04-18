@@ -12,6 +12,11 @@ body {
     margin: 20px;
 }
 
+main section h1 {
+    text-align: center;
+    padding: 5px;
+}
+
 .main_card img {
     border-radius: 10px 10px 25px 25px;
 }
