@@ -17,6 +17,11 @@ header h1 {
     padding: 5px;
 }
 
+.contributions_section {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 .main_card img {
     border-radius: 10px 10px 25px 25px;
 }
