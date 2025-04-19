@@ -5,8 +5,7 @@ body {
     justify-content: center;
 }
 
-h6 {
-    border-top: 1px solid darkgray;
+hr {
     width: 50%; /* or whatever % or px you want */
     margin: 10px auto; /* centers it horizontally */
 }
