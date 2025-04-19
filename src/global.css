@@ -28,15 +28,22 @@ header h1 {
 
 .technologies_section {
     display: grid;
-    margin: 15px;
+    margin: 15px 15px 20px 15px;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 1fr;
     justify-items: center;
     align-items: center;
 }
 
+.technologies_section div {
+    position: relative;
+}
+
 .technologies_section div span {
     display: none;
+    position: absolute;
+    left: 50%;
+    white-space: nowrap;
 }
 
 .technologies_section div:hover img {
@@ -45,14 +52,14 @@ header h1 {
 
 .technologies_section .technologies_top_row:hover span {
     display: inline-block;
-    position: absolute;
-    transform: translate(6px, -18px);
+    transform: translateY(-20px) translateX(-50%);
+
 }
 
 .technologies_section .technologies_bottom_row:hover span {
     display: inline-block;
-    position: absolute;
-    transform: translate(6px, 38px);
+    transform: translateY(38px) translateX(-50%);
+
 }
 
 .technologies_section img {
