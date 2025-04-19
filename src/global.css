@@ -43,10 +43,16 @@ header h1 {
     transform: scale(1.15);
 }
 
-.technologies_section div:hover span {
+.technologies_section .technologies_top_row:hover span {
     display: inline-block;
     position: absolute;
-    transform: translate(7px, -15px);
+    transform: translate(6px, -18px);
+}
+
+.technologies_section .technologies_bottom_row:hover span {
+    display: inline-block;
+    position: absolute;
+    transform: translate(6px, 38px);
 }
 
 .technologies_section img {
