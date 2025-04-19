@@ -14,12 +14,12 @@ body {
 
 header h1 {
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
 
 .contributions_section {
     text-align: center;
-    padding-bottom: 10px;
+    padding: 20px 0px 10px 0px;
 }
 
 .main_card .profilePicture {
@@ -64,6 +64,29 @@ header h1 {
 
 .technologies_section img {
     margin: 5px;
+}
+
+.header_media {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    justify-items: center;
+    align-content: center;
+}
+
+.header_media div {
+    position: relative
+}
+
+.header_media div span {
+    margin-top: 5px;
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateY(-25px) translateX(-50%);
+}
+
+.header_media div:hover span {
+    display: inline-block;
 }
 
 /* Tablet Mode */
