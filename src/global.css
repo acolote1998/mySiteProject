@@ -35,8 +35,18 @@ header h1 {
     align-items: center;
 }
 
-.technologies_section img:hover {
+.technologies_section div span {
+    display: none;
+}
+
+.technologies_section div:hover img {
     transform: scale(1.15);
+}
+
+.technologies_section div:hover span {
+    display: inline-block;
+    position: absolute;
+    transform: translate(7px, -15px);
 }
 
 .technologies_section img {
