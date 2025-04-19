@@ -5,6 +5,13 @@ body {
     justify-content: center;
 }
 
+h6 {
+    border-top: 1px solid darkgray;
+    width: 50%; /* or whatever % or px you want */
+    margin: 10px auto; /* centers it horizontally */
+}
+
+
 /* Responsive Media Queries */
 @media screen and (min-width: 431px) {
     body {
