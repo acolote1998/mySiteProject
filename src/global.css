@@ -89,6 +89,10 @@ header h1 {
     display: inline-block;
 }
 
+.header_media a {
+    color: black;
+}
+
 /* Tablet Mode */
 @media screen and (min-width: 431px) {
     body {
