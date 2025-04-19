@@ -35,6 +35,10 @@ header h1 {
     align-items: center;
 }
 
+.technologies_section img:hover {
+    transform: scale(1.15);
+}
+
 .technologies_section img {
     margin: 5px;
 }
