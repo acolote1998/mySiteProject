@@ -26,6 +26,15 @@ header h1 {
     border-radius: 10px 10px 25px 25px;
 }
 
+.technologies_section {
+    display: grid;
+    margin: 15px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
 /* Tablet Mode */
 @media screen and (min-width: 431px) {
     body {
