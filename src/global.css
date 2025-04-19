@@ -79,7 +79,7 @@ header h1 {
 /* Technologies Section */
 .technologies_section {
     display: grid;
-    margin: 10px 15px 20px 15px;
+    margin: 24px 15px 20px 15px;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 1fr;
     justify-items: center;
@@ -107,7 +107,7 @@ header h1 {
 
 .technologies_section .technologies_top_row:hover span {
     display: inline-block;
-    transform: translateY(-20px) translateX(-50%);
+    transform: translateY(-22px) translateX(-50%);
 }
 
 .technologies_section .technologies_bottom_row:hover span {
