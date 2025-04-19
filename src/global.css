@@ -45,6 +45,7 @@ header h1 {
 /* Header Media */
 .header_media {
     display: grid;
+    margin-top: 25px;
     grid-template-columns: 33% 34% 33%;
     justify-items: center;
     align-content: center;
@@ -59,7 +60,7 @@ header h1 {
     display: none;
     position: absolute;
     left: 50%;
-    transform: translateY(-25px) translateX(-50%);
+    transform: translateY(-30px) translateX(-50%);
 }
 
 .header_media div:hover span {
