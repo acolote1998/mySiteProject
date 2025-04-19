@@ -22,7 +22,7 @@ header h1 {
     padding-bottom: 10px;
 }
 
-.main_card img {
+.main_card .profilePicture {
     border-radius: 10px 10px 25px 25px;
 }
 
@@ -33,6 +33,10 @@ header h1 {
     grid-template-rows: 1fr;
     justify-items: center;
     align-items: center;
+}
+
+.technologies_section img {
+    margin: 5px;
 }
 
 /* Tablet Mode */
