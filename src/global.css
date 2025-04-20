@@ -16,6 +16,19 @@ hr {
     body {
         background-color: red;
     }
+
+    /* Card Layout */
+    .main_card {
+        display: grid;
+        grid-template-columns: 33% 34% 33%;
+    }
+
+    .profilePicture {
+        width: 80%; /* half the width of its container */
+        height: auto;
+        margin: 20px;
+        border: 1px solid darkgray;
+    }
 }
 
 @media screen and (min-width: 771px) {
