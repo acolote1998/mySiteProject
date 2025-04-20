@@ -247,6 +247,16 @@ header h1 {
 }
 
 @media screen and (min-width: 1500px) {
+    body {
+        display: grid;
+        grid-template-columns: 5% 90% 5%;
+    }
+
+    .main_card {
+        margin-top: 40px;
+        grid-column: 2;
+    }
+
     h1 {
         font-size: 350%;
     }
