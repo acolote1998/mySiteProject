@@ -4,9 +4,11 @@
 
 body {
     background-color: darkgray;
-    display: grid;
-    grid-auto-rows: 1fr;
     justify-content: center;
+}
+
+.about_me {
+    text-align: center;
 }
 
 hr {
