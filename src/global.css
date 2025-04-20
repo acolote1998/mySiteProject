@@ -121,6 +121,12 @@ header h1 {
 }
 
 /* Responsive Media Queries */
+@media screen and (max-width: 430px) {
+    .main_card img {
+        width: 100%;
+    }
+}
+
 @media screen and (min-width: 431px) {
     body {
         background-color: red;
