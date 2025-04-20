@@ -14,33 +14,6 @@ hr {
     margin: 10px auto; /* centers it horizontally */
 }
 
-
-/* Responsive Media Queries */
-@media screen and (min-width: 431px) {
-    body {
-        background-color: red;
-    }
-
-    /* Card Layout */
-    .main_card {
-        display: grid;
-        grid-template-columns: 33% 34% 33%;
-    }
-
-    .profilePicture {
-        width: 80%; /* half the width of its container */
-        height: auto;
-        margin: 20px;
-        border: 1px solid darkgray;
-    }
-}
-
-@media screen and (min-width: 771px) {
-    body {
-        background-color: aqua;
-    }
-}
-
 /* Card Layout */
 .main_card {
     border: 1px solid darkgray;
@@ -131,4 +104,31 @@ header h1 {
 .technologies_section .technologies_bottom_row:hover span {
     display: inline-block;
     transform: translateY(38px) translateX(-50%);
+}
+
+/* Responsive Media Queries */
+@media screen and (min-width: 431px) {
+    body {
+        background-color: red;
+    }
+
+    /* Card Layout */
+    .main_card {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 10px;
+    }
+
+    .profilePicture {
+        width: 80%; /* half the width of its container */
+        height: auto;
+        margin: 20px 20px 0px 20px;
+        border: 1px solid darkgray;
+    }
+}
+
+@media screen and (min-width: 771px) {
+    body {
+        background-color: aqua;
+    }
 }
