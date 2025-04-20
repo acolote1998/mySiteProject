@@ -172,10 +172,41 @@ header h1 {
         background-color: aqua;
     }
 
+    .main_card {
+        justify-items: center;
+    }
+
+    .technologies_section div {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
     .profilePicture {
         width: 70%; /* half the width of its container */
         height: auto;
         margin: 20px 20px 0px 20px;
         border: 1px solid darkgray;
+    }
+
+    .portfolioIcons img {
+        width: 5%;
+        height: auto;
+    }
+
+    h1 {
+        margin: 15px;
+    }
+
+    .about_me p {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .header_media div {
+        margin-bottom: 15px;
+    }
+
+    h6 {
+        font-size: 115%;
     }
 }
