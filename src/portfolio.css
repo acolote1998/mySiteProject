@@ -40,6 +40,11 @@ p {
     grid-template-rows: 50% 50%;
 }
 
+.portfolio_project_technologies_items img {
+    width: 50%;
+    height: auto;
+}
+
 .portfolio_buttons {
     display: grid;
     grid-template-columns: 50% 50%;
