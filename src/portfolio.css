@@ -131,3 +131,33 @@ button {
 
     }
 }
+
+@media screen and (min-width: 1025px) {
+
+    .main_portfolio_card {
+        grid-template-rows: 12% 25% 50% 10%;
+    }
+
+    .main_portfolio_card img {
+        width: 85%;
+    }
+
+    .main_portfolio_card {
+        justify-content: center;
+        align-content: center;
+    }
+
+    .portfolio_technologies_details {
+        text-align: center;
+    }
+
+    .portfolio_item_header {
+        justify-content: center;
+        align-content: center;
+    }
+
+    .portfolio_item_header p {
+        justify-self: center;
+        align-self: center;
+    }
+}
