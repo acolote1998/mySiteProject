@@ -241,8 +241,8 @@ header h1 {
         font-size: 125%;
     }
 
-    span {
-        font-size: 75%;
+    .technologies_section div span {
+        font-size: 75%
     }
 
     h6 {
@@ -263,10 +263,6 @@ header h1 {
         font-size: 225%;
     }
 
-    span {
-        font-size: 125%;
-    }
-
     h6 {
         font-size: 350%;
     }
@@ -274,6 +270,7 @@ header h1 {
     span {
         font-size: 400%;
     }
+
 }
 
 @media screen and (min-width: 1500px) {
