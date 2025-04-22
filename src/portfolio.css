@@ -87,6 +87,7 @@ button {
     .card {
         display: grid;
         grid-template-columns: 50% 50%;
+        margin: 15px;
     }
 
     .portfolio_project {
@@ -103,5 +104,22 @@ button {
         justify-self: center;
         align-self: center;
         margin: 0;
+    }
+
+    .portfolio_technologies_details {
+        display: grid;
+        grid-template-rows: 25% 25% 25% 25%;
+    }
+
+    .portfolio_item_header {
+        display: grid;
+        grid-template-columns: 25% 75%;
+    }
+
+    .portfolio_item_header img {
+        width: 75%;
+        height: auto;
+        align-self: center;
+        justify-self: center;
     }
 }
