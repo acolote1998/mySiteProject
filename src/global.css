@@ -117,7 +117,7 @@ header h1 {
 
 .technologies_section .technologies_bottom_row:hover span {
     display: inline-block;
-    transform: translateY(38px) translateX(-50%);
+    transform: translateY(48px) translateX(-50%);
 }
 
 /* Responsive Media Queries */
@@ -196,6 +196,11 @@ header h1 {
     .technologies_section div {
         padding-left: 12px;
         padding-right: 12px;
+    }
+
+    .technologies_section .technologies_bottom_row:hover span {
+        display: inline-block;
+        transform: translateY(38px) translateX(-50%);
     }
 
     .profilePicture {
