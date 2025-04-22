@@ -1,0 +1,27 @@
+/* Card Layout */
+.main_card {
+    border: 1px solid darkgray;
+    border-radius: 25px;
+    background-color: lightgray;
+    margin: 20px;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 430px) {
+}
+
+@media screen and (min-width: 431px) {
+}
+
+@media screen and (min-width: 771px) {
+}
+
+@media screen and (min-width: 1000px) {
+}
+
+@media screen and (min-width: 1500px) {
+}
+
+@media screen and (min-width: 1850px) {
+}
+
