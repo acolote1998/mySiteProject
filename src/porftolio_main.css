@@ -46,19 +46,42 @@ h1 {
 }
 
 /* Responsive Media Queries */
-@media screen and (max-width: 430px) {
-}
+
 
 @media screen and (min-width: 431px) {
+    .portfolio_item_specifications img {
+        display: inline-block; /* Ensures proper centering and allows styling */
+        width: 25%;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 130%;
+    }
 }
 
 @media screen and (min-width: 771px) {
+    .portfolio_item_specifications img {
+        display: inline-block; /* Ensures proper centering and allows styling */
+        width: 17%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 350%;
+    }
+
+
 }
 
 @media screen and (min-width: 1000px) {
+
 }
 
 @media screen and (min-width: 1500px) {
+    .portfolio_item_specifications {
+        padding-top: 20px;
+    }
 }
 
 @media screen and (min-width: 1850px) {
