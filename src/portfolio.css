@@ -1,5 +1,8 @@
-h1 {
+* {
     text-align: center;
+}
+
+h1 {
     font-size: 300%;
     margin: 15px;
 }
@@ -38,7 +41,6 @@ p {
 .portfolio_project {
     display: grid;
     grid-template-rows: 15% 85%;
-    text-align: center;
 }
 
 .portfolio_project_technologies {
@@ -145,10 +147,6 @@ button {
     .main_portfolio_card {
         justify-content: center;
         align-content: center;
-    }
-
-    .portfolio_technologies_details {
-        text-align: center;
     }
 
     .portfolio_item_header {

@@ -51,4 +51,4 @@ function portfolioAnimation() {
     }, 1000); // esperar 1 segundo (coincide con el `transition`)
 }
 
-setInterval(portfolioAnimation, 3000); // cada 3 segundos
+setInterval(portfolioAnimation, 5000); // cada 3 segundos
