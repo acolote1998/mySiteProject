@@ -1,7 +1,15 @@
 .main_portfolio_card {
+    height: 100vh;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 15% 25% 25% 25% 10%;
+    grid-template-rows: 15% 22% 28% 25% 10%;
+}
+
+.main_portfolio_card img {
+    width: 90%;
+    height: auto;
+    justify-self: center;
+    align-self: center;
 }
 
 .portfolio_project_technologies {
