@@ -87,7 +87,7 @@ button {
     .card {
         display: grid;
         grid-template-columns: 50% 50%;
-        margin: 15px;
+        margin: 10px;
     }
 
     .portfolio_project {
@@ -121,5 +121,13 @@ button {
         height: auto;
         align-self: center;
         justify-self: center;
+    }
+}
+
+@media screen and (min-width: 771px) {
+
+    .main_portfolio_card {
+        grid-template-rows: 12% 35% 42% 10%;
+
     }
 }
