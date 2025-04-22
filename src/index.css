@@ -16,6 +16,14 @@ hr {
     margin: 10px auto; /* centers it horizontally */
 }
 
+.index_portfolio_button {
+    justify-self: center;
+}
+
+.index_portfolio_button button {
+    margin-bottom: 20px;
+}
+
 /* Card Layout */
 .main_card {
     border: 1px solid darkgray;
@@ -110,12 +118,18 @@ header h1 {
 
 /* Responsive Media Queries */
 @media screen and (max-width: 430px) {
+
+
     .main_card img {
         width: 100%;
     }
 }
 
 @media screen and (min-width: 431px) {
+
+    .index_portfolio_button {
+        display: none;
+    }
 
     #portfolioItem {
         opacity: 0;
@@ -246,5 +260,5 @@ header h1 {
         margin-top: 40px;
         grid-column: 2;
     }
-    
+
 }
