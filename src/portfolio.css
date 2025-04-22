@@ -10,10 +10,14 @@ p {
 }
 
 .main_portfolio_card {
-    height: 100vh;
+    height: 96vh;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 10% 23% 30% 27% 10%;
+    border: 1px solid darkgray;
+    border-radius: 25px;
+    background-color: lightgray;
+    margin: 20px;
 }
 
 .main_portfolio_card img {
@@ -32,6 +36,10 @@ p {
 .portfolio_project_technologies {
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+.portfolio_main_image {
+    margin-top: 20px;
 }
 
 img {
@@ -55,7 +63,6 @@ img {
 }
 
 button {
-    margin: 5%;
     width: 70%;
     justify-self: center;
     align-self: center;
