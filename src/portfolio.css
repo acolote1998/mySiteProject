@@ -12,6 +12,12 @@
     align-self: center;
 }
 
+.portfolio_project {
+    display: grid;
+    grid-template-rows: 15% 85%;
+    text-align: center;
+}
+
 .portfolio_project_technologies {
     display: grid;
     grid-template-columns: 50% 50%;
