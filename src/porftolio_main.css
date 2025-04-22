@@ -3,7 +3,46 @@
     border: 1px solid darkgray;
     border-radius: 25px;
     background-color: lightgray;
-    margin: 20px;
+    margin: 10px;
+    display: grid;
+    height: 97vh;
+    grid-template-rows: 15% 5% 20% 20% 20% 20%;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 350%;
+}
+
+.portfolio_item_specifications {
+    display: grid;
+    grid-template-columns: 30% 15% 15% 15% 15%;
+    border-top: 1px solid darkgray;
+    justify-items: center;
+    justify-content: center;
+}
+
+.portfolio_item_content button {
+    width: 70%;
+    font-size: 10px;
+    height: 20%;
+    align-self: center;
+}
+
+.portfolio_item_specifications img {
+    display: inline-block; /* Ensures proper centering and allows styling */
+    width: 35%;
+    height: auto;
+}
+
+.portfolio_item_content p {
+    height: 30%;
+}
+
+.portfolio_item_content {
+    display: grid;
+    grid-template-columns: 70% 30%;
 }
 
 /* Responsive Media Queries */
