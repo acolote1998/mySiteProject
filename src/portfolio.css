@@ -1,0 +1,16 @@
+.main_portfolio_card {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 25% 25% 25% 10%;
+}
+
+.portfolio_project_technologies {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.portfolio_project_technologies_items {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
