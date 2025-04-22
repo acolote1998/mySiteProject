@@ -12,16 +12,19 @@ function portfolioAnimation() {
         switch (counter) {
             case 0:
                 portfolioItem.innerHTML = `
+                <a href="projects/mobprogrammingselector.html">
                     <span>Mob Role Selector</span>
                     <div class="portfolioIcons">
                         <img src="C:\\s\\CSS\\MySite\\src\\img\\javaIcon.png">
                         <img src="C:\\s\\CSS\\MySite\\src\\img\\mavenIcon.png">
                     </div>
                     <p>Simple Java application to designate mob-programming roles.</p>
+                </a>
                 `;
                 break;
             case 1:
                 portfolioItem.innerHTML = `
+                <a href="projects/ourownzeta.html">
                     <span>Our Own Zeta</span>
                     <div class="portfolioIcons">
                         <img src="C:\\s\\CSS\\MySite\\src\\img\\javaIcon.png">
@@ -31,6 +34,7 @@ function portfolioAnimation() {
                         <img src="C:\\s\\CSS\\MySite\\src\\img\\reactIcon.png">
                     </div>
                     <p>Simulation experience where one is in charge of developing a civilization.</p>
+                </a>
                 `;
                 break;
         }
