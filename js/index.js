@@ -12,7 +12,7 @@ function portfolioAnimation() {
         switch (counter) {
             case 0:
                 portfolioItem.innerHTML = `
-                <a href="projects/mobprogrammingselector.html">
+                <a href="projects/ourownzeta.html">
                     <span>Mob Role Selector</span>
                     <div class="portfolioIcons">
                         <img src="C:\\s\\CSS\\MySite\\src\\img\\javaIcon.png">

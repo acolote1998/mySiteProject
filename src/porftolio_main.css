@@ -1,4 +1,5 @@
 /* Card Layout */
+
 .main_card {
     border: 1px solid darkgray;
     border-radius: 25px;
@@ -9,6 +10,20 @@
     grid-template-rows: 15% 5% 20% 20% 20% 20%;
     text-align: center;
     justify-content: center;
+}
+
+.main_card .header {
+    display: grid;
+    grid-template-columns: 3% 97%;
+}
+
+.main_card .header button {
+    height: 25px;
+    width: 15px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 15px;
 }
 
 h1 {
