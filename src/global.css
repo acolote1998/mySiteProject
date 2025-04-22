@@ -11,26 +11,9 @@ h6 {
     text-align: center;
 }
 
-.portfolio {
-    display: none;
-}
-
 body {
     background-color: darkgray;
     justify-content: center;
-}
-
-.about_me {
-    text-align: center;
-}
-
-.about_me p {
-    display: none;
-}
-
-hr {
-    width: 50%; /* or whatever % or px you want */
-    margin: 10px auto; /* centers it horizontally */
 }
 
 /* Card Layout */
@@ -41,198 +24,7 @@ hr {
     margin: 20px;
 }
 
-.main_card .profilePicture {
-    border-radius: 10px 10px 25px 25px;
-}
-
-/* Header */
-header h1 {
-    text-align: center;
-    padding: 10px 0px 2px 0px;
-}
-
-/* Header Media */
-.header_media {
-    display: grid;
-    margin-top: 25px;
-    grid-template-columns: 33% 34% 33%;
-    justify-items: center;
-    align-content: center;
-}
-
-.header_media div {
-    position: relative
-}
-
-.header_media div span {
-    margin-top: 5px;
-    display: none;
-    position: absolute;
-    left: 50%;
-    transform: translateY(-30px) translateX(-50%);
-}
-
-.header_media div:hover span {
-    display: inline-block;
-}
-
-.header_media a {
-    color: black;
-}
-
-/* Contributions */
-.contributions_section {
-    text-align: center;
-    padding: 10px 0px 10px 0px;
-}
-
-/* Technologies Section */
-.technologies_section {
-    display: grid;
-    margin: 24px 15px 20px 15px;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 1fr;
-    justify-items: center;
-    align-items: center;
-}
-
-.technologies_section img {
-    margin: 5px;
-}
-
-.technologies_section div {
-    position: relative;
-}
-
-.technologies_section div span {
-    display: none;
-    position: absolute;
-    left: 50%;
-    white-space: nowrap;
-}
-
-.technologies_section div:hover img {
-    transform: scale(1.15);
-}
-
-.technologies_section .technologies_top_row:hover span {
-    display: inline-block;
-    transform: translateY(-22px) translateX(-50%);
-}
-
-.technologies_section .technologies_bottom_row:hover span {
-    display: inline-block;
-    transform: translateY(48px) translateX(-50%);
-}
-
-/* Responsive Media Queries */
-@media screen and (max-width: 430px) {
-    .main_card img {
-        width: 100%;
-    }
-}
-
-@media screen and (min-width: 431px) {
-
-    #portfolioItem {
-        opacity: 0;
-        transition: opacity 1s ease-in-out;
-    }
-
-    #portfolioItem.portfolio_item_fade {
-        opacity: 1;
-    }
-
-    body {
-        /* background-color: red;*/
-    }
-
-    /* Card Layout */
-    .main_card {
-        display: grid;
-        grid-template-columns: 40% 60%;
-        grid-template-rows: auto;
-        margin-top: 10px;
-    }
-
-    main {
-        grid-column: 1;
-        grid-row: 2;
-    }
-
-    header {
-        grid-column: 2;
-        grid-row: 2;
-    }
-
-    .about_me p {
-        display: inline-block;
-    }
-
-    .profilePicture {
-        width: 80%; /* half the width of its container */
-        height: auto;
-        margin: 20px 20px 0px 20px;
-        border: 1px solid darkgray;
-    }
-
-    .portfolio {
-        text-align: center;
-        display: inline-block;
-    }
-
-    .portfolioIcons img {
-        width: 4%;
-        height: auto;
-    }
-
-}
-
 @media screen and (min-width: 771px) {
-    body {
-        /* background-color: aqua;*/
-    }
-
-    .main_card {
-        justify-items: center;
-        margin: 3px 5px 3px 5px;
-    }
-
-    .technologies_section div {
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-
-    .technologies_section .technologies_bottom_row:hover span {
-        display: inline-block;
-        transform: translateY(38px) translateX(-50%);
-    }
-
-    .profilePicture {
-        width: 70%; /* half the width of its container */
-        height: auto;
-        margin: 20px 20px 0px 20px;
-        border: 1px solid darkgray;
-    }
-
-    .portfolioIcons img {
-        width: 5%;
-        height: auto;
-    }
-
-    h1 {
-        margin: 15px;
-    }
-
-    .about_me p {
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-
-    .header_media div {
-        margin-bottom: 15px;
-    }
-
     h6 {
         font-size: 115%;
     }
@@ -257,15 +49,6 @@ header h1 {
 }
 
 @media screen and (min-width: 1500px) {
-    body {
-        display: grid;
-        grid-template-columns: 5% 90% 5%;
-    }
-
-    .main_card {
-        margin-top: 40px;
-        grid-column: 2;
-    }
 
     h1 {
         font-size: 350%;
