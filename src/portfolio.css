@@ -34,6 +34,10 @@ p {
     grid-template-columns: 50% 50%;
 }
 
+img {
+    border-radius: 30px;
+}
+
 .portfolio_project_technologies_items {
     display: grid;
     grid-template-columns: 50% 50%;
